@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #000;
+}
+
+header {
+	background-image: linear-gradient(rgba(10,30,5,0.7),rgba(4,25,10,0.5)), url("https://i.pinimg.com/564x/ad/c4/6b/adc46b0ccc76360e78ac2e0a37592a14.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 270px;
+	width: 1450px;
+	height: 850px;
+	margin: -10;
+	background-repeat: no-repeat;
+}
+
+.header-text h1, h3 {
+	color: #fff;
+	margin-left: -750px;
+/*	margin-left: -150px;*/
+	margin: 0px;
+	font-family: 'Neue Machina';
+/*	padding-right: 20px;*/
+	padding: 20px;
+	padding-top: 55px;
+}
+
+.header-text {
+	padding: 10px;
+	text-align: center;
+	margin-left: -175px;
+}
+
+.header-text h1 {
+	font-size: 60px;
+	text-emphasis: bold;
+	font-style: italic;
+	border: solid;
+	border-radius: 60%;
+	width: 600px;
+	height: 200px;
+	justify-content: center;
+
+}
+
+.header-text h3 {
+	text-decoration: none;
+	text-align: left;
+	margin-left: 170px;
+	margin-right: 150px;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+#robot {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-top: -820px;
+	margin-bottom: 30px;
+	margin-right: 100px;
+}
+
+#robot iframe, img {
+	width: 500px;
+	height: 350px;
+	margin-bottom: 20px;
+	border-radius: 3.5%;
+	/*margin-top: -450px;
+	margin-bottom: 50px;
+	margin-right: 90px;*/
+}
+
+a {
+	font-family: 'Dela Gothic One';
+	color: #FFFDD0;
+	text-emphasis: none;
+	margin-left: 55px;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+
+.about-portion {
+	background-image: radial-gradient(#000,#46644e, #FFFDD0);
+	display: flex;
+	margin: -10;
+	padding: 20px;
+	width: 1450px;
+	height: 850px;
+	color: #fff;
+	flex-flow: row wrap;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.description {
+	justify-items: center;
+	margin: 50px 80px 50px 80px;
+	text-align: center;
+}
+
+.description h1 {
+	font-family: 'Neue Machina';
+	text-align: center;
+	text-emphasis: bold;
+	text-transform: uppercase;
+}
+
+.description p {
+	font-family: 'Neue Machina';
+	font-size: 20px;
+	color: #fff;
+	margin: 20px;
+	text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: 85px;
+}
+
+.flex-container > div {
+  background-color: #000;
+  border-radius: 10%;
+  width: 400px;
+  height: 250px;
+  margin: 0px 10px 8px 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box {
+	opacity: 85%;
+}
+
+.box h1 {
+	font-family: 'Neue Machina';
+	font-size: 25px;
+	margin: 0px;
+	margin-top: 40px;
+}
+
+.box p {
+	font-family: 'PP Telegraf';
+	font-size: 15px;
+	margin: 10px 15px;
+	text-align: center;
+	line-height: 30px;
+	width: 90%;
+	align-items: center;
+}
